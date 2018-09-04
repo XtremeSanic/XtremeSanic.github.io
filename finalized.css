@@ -566,12 +566,12 @@ Guilds
  */
 #app-mount .guildsWrapper-5TJh6A,
 .guilds-wrapper {
-	border-right: 1px solid var(--dark-red);
+	border-right: 1px solid var(--sec-color);
     width: 70px ;
-	background: rgba(100, 15, 30, 1);
+	background: rgba(0,0,0,0.65);
 }
 .unread-1Dp-OI {
-	color: var(--dark-red);
+	color: var(--sec-color);
     width: .75em;
     height: .75em;
     transform: rotate(45deg);
@@ -585,13 +585,13 @@ Guilds
 }
 .guildsWrapper-5TJh6A svg.homeIcon-1FoKUJ,
 .guilds-wrapper .guilds .home-icon {
-    background: url(https://i.imgur.com/kGSoGDZ.gif);
+    background: url(https://i.imgur.com/PDyYtz3.gif);
     background-position: center;
 	background-size: 60px 60px;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
-    background: url(https://i.imgur.com/kGSoGDZ.gif) no-repeat center/cover;
+    background: url(https://i.imgur.com/PDyYtz3.gif) no-repeat center/cover;
     width: 100%;
     height: 100%;
     background-size: 60px 60px;
@@ -604,7 +604,7 @@ Guilds
     font-weight: 400;
 }
 .guilds-wrapper .guild-separator:after {
-    background: rgba(100, 15, 30, 1);
+    background: rgba(255,255,255,0.4);
 }
 div#bd-pub-button {
     background: var(--main-color);
@@ -627,7 +627,7 @@ div#bd-pub-button {
 
 .guilds-wrapper .guilds .guild.selected .guild-inner {
     border-radius: 5px;
-    border: 1px solid var(--dark-red);
+    border: 1px solid var(--sec-color);
 }
 .guild-1EfMGQ.selected-ML3OIq:before,
 .guilds-wrapper .guilds .guild.selected:before {
